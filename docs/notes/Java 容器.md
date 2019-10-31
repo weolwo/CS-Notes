@@ -48,6 +48,9 @@
 
 - PriorityQueue：基于堆结构实现，可以用它来实现优先队列。
 
+- BlockingQueue(BlockingQueue很好的解决了多线程中，如何高效安全“传输”数据的问题,作为BlockingQueue的使用者，我们再也不需要关心什么时候需要阻塞线程，什么时候需要唤醒线程，
+因为这一切BlockingQueue都给你一手包办了)
+- 参考：https://www.cnblogs.com/fnlingnzb-learner/p/9784776.html
 ## Map
 
 <div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/774d756b-902a-41a3-a3fd-81ca3ef688dc.png" width="500px"> </div><br>
